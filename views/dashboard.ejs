@@ -1,0 +1,9 @@
+<h1 class="dash">Dashbord</h1>
+<p class="dash-p">Welcome <%= name %></p>
+
+<% if (clients) { %>
+    <p> valid!!!</p>
+    <%} else { %>
+    <p> You have no clients </p>
+    <% } %>
+<a href="/users/logout" class="dash-a">Logout</a>
